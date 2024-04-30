@@ -7,7 +7,7 @@ This project is about detecting the Drivable area and detecting lanes on the roa
 - This dataset contains images for Drivable Area segmentation and Lane detection. All the images are generated using Stable diffusion in Google Colaboratory. This dataset is around 90 Megabytes. The project we are working on has two label outputs for each sample. And these outputs are overlayed on the original image.
 - We've used stable diffusion to generate images for finetuning the model. click on the below badge to see how we worked with stable diffusion. The model we used is CompVis's stable-diffusion-v1-4 which can run on T4 GPU provided without any cost by google.
 
-<a href="https://colab.research.google.com/github/balnarendrasapa/road-detection/blob/master/stable_diffusion/stable_diffusion.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="stable_diffusion/stable_diffusion.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Annotation
 
@@ -46,11 +46,7 @@ Within each of these splits, there are three folders:
 
 The dataset that we annotated is available in this repository in the datasets folder as datasets.zip. And also the dataset is pushed to huggingface datasets and you can access the dataset like shown below
 
-### Python
 
-<a href="https://colab.research.google.com/github/balnarendrasapa/road-detection/blob/master/datasets/Huggingface_dataset_tutorial.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-click on the above badge to see more on how to work with dataset
 
 ```python
 from datasets import load_dataset
@@ -59,15 +55,10 @@ dataset = load_dataset("bnsapa/road-detection")
 ```
 This dataset is hosted on huggingface. click [here](https://huggingface.co/datasets/bnsapa/road-detection) to the dataset card
 
-### Through CLI
-
-```bash
-wget https://github.com/balnarendrasapa/road-detection/raw/master/datasets/dataset.zip
-```
 
 ## Training
 
-<a href="https://colab.research.google.com/github/balnarendrasapa/road-detection/blob/master/submissions/Update%202/Update_2_with_test.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/Submission/Update 2/Update_2.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - Click on the above badge to open jupyter notebook that demonstrates how the model is finetuned.
 
@@ -110,19 +101,9 @@ This transformation simulates changes in the camera's perspective, including rot
 
 ## Deployment
 
-- The model is deployed on Huggingface spaces. click [here](https://huggingface.co/spaces/bnsapa/road-detection) to go there.
+- The model is deployed on Huggingface spaces. click [here](https://github.com/pijush2022/Lane_detection.git) to go there.
 - You can deploy the model locally as well. There are three methods to run the model they are listed below.
   
-#### Docker-Compose
-- There is a docker image available with this repository. that is `road-detection`.
-- git clone this repo. and `cd` into deployment and run `docker-compose up`.
-- open `http://localhost:7860/` in you browser to see the app
-  
-#### Docker
-- you can run the following command. This will download the image and deploy it. open `http://localhost:7860/` in you browser to see the app.
-```bash
-docker run -p 7860:7860 -e SHARE=True ghcr.io/balnarendrasapa/road-detection:latest
-```
 
 #### Python Virtual Environment
 - `cd` into deployment directory. and run `python -m venv .venv` to create a virtual environment.
