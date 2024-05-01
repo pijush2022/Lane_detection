@@ -13,9 +13,10 @@ The Custom Dataset Link is "https://drive.usercontent.google.com/download?id=1BI
 
 - The images are annotated using labelme tool. Which is an opensource tool used to annotate image data. Each image is annotated twice one is for drivable area segmentation and another is for lane detection.
 
-### Labelme Annotation Tool
+### Label Studio Annotation Tool
 
-![image](https://github.com/balnarendrasapa/road-detection/assets/61614290/3458871a-12ff-4ce0-b26c-e0a57f985c96)
+
+![label1](https://github.com/pijush2022/Lane_detection/assets/104580397/3cc4d73e-f86c-4557-85ca-e99ff64b9ea3)
 
 Click [here](https://github.com/wkentaro/labelme) to the labelme's github repo
 
