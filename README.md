@@ -32,6 +32,11 @@ The Custom Dataset Link is "https://drive.usercontent.google.com/download?id=1BI
 
 ![label3](https://github.com/pijush2022/Lane_detection/assets/104580397/11bf1be4-102f-4273-abf7-99354da0bd78)
 
+### Example of our custome data from the above code
+
+![label4](https://github.com/pijush2022/Lane_detection/assets/104580397/8b60e5a9-efa8-4a9b-a983-8a5493c63eb3)
+
+
 ## Partitioning
 
 The dataset is structured into three distinct partitions: Train, Test, and Validation. The Train split comprises 80% of the dataset, containing both the input images and their corresponding labels. Meanwhile, the Test and Validation splits each contain 10% of the data, with a similar structure, consisting of image data and label information.
