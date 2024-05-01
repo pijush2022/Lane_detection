@@ -22,7 +22,7 @@ The Custom Dataset Link is "https://drive.usercontent.google.com/download?id=1BI
 • Our project leverages Label Studio, an image annotation tool, to meticulously label road lines and drivable areas within our image dataset.
 • Link: https://labelstud.io/guide
 
-#### Original Image and #### Annotation for Drivable area segmentation
+#### Original Image and Annotation for Drivable area segmentation
 
 
 ![label2](https://github.com/pijush2022/Lane_detection/assets/104580397/83967bd9-4f76-4310-909f-9e6afb961698)
