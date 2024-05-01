@@ -18,19 +18,19 @@ The Custom Dataset Link is "https://drive.usercontent.google.com/download?id=1BI
 
 ![label1](https://github.com/pijush2022/Lane_detection/assets/104580397/3cc4d73e-f86c-4557-85ca-e99ff64b9ea3)
 
-Click [here](https://github.com/wkentaro/labelme) to the labelme's github repo
+### Annotation:
+• Our project leverages Label Studio, an image annotation tool, to meticulously label road lines and drivable areas within our image dataset.
+• Link: https://labelstud.io/guide
 
-#### Original Image
+#### Original Image and #### Annotation for Drivable area segmentation
 
-![image](https://github.com/balnarendrasapa/road-detection/assets/61614290/cda57ce3-14f0-4fec-aa8c-03974c25a753)
 
-#### Annotation for Drivable area segmentation
-
-![image](https://github.com/balnarendrasapa/road-detection/assets/61614290/c34f80fa-07e8-4b82-b767-9da4f8f14071)
+![label2](https://github.com/pijush2022/Lane_detection/assets/104580397/83967bd9-4f76-4310-909f-9e6afb961698)
 
 #### Annotation for Lane detecton
 
-![image](https://github.com/balnarendrasapa/road-detection/assets/61614290/d2ef6899-de98-41ea-a723-4498ae4454e6)
+
+![label3](https://github.com/pijush2022/Lane_detection/assets/104580397/11bf1be4-102f-4273-abf7-99354da0bd78)
 
 ## Partitioning
 
