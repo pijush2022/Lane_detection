@@ -97,7 +97,7 @@ This transformation simulates changes in the camera's perspective, including rot
 
 ## Deployment
 
-- The model is deployed on Huggingface spaces. click [here](https://github.com/pijush2022/Lane_detection.git) to go there.
+- The model is deployed on Github Action with CI/CD. click [here](https://github.com/pijush2022/Lane_detection.git) to go there.
 - You can deploy the model locally as well. There are three methods to run the model they are listed below.
   
 
